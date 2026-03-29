@@ -47,3 +47,9 @@ body {
     font-weight: 700;
     font-style: normal;
 }
+
+.SubTitleText {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: italic;
+}
