@@ -37,7 +37,7 @@ body {
 }
 
 .card-columns {
-    column-count: 2;
+    column-count: 1;
       @include media-breakpoint-only(xs) {
     column-count: 1;
   }
@@ -45,7 +45,7 @@ body {
     column-count: 1;
   }
       @include media-breakpoint-up(md) {
-    column-count: 2;
+    column-count: 1;
   }
 }
 .card-columns .card {  
@@ -54,6 +54,11 @@ body {
    width: 100%;
    margin: 5px;
    
+}
+.temp{
+      display: inline-block;
+   width: 100%;
+   margin: 5px;
 }
 
 .CardEntry {

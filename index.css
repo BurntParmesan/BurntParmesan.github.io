@@ -12013,8 +12013,8 @@ body {
 }
 
 .card-columns {
-  -moz-column-count: 2;
-       column-count: 2;
+  -moz-column-count: 1;
+       column-count: 1;
 }
 @media (max-width: 575.98px) {
   .card-columns {
@@ -12030,12 +12030,18 @@ body {
 }
 @media (min-width: 768px) {
   .card-columns {
-    -moz-column-count: 2;
-         column-count: 2;
+    -moz-column-count: 1;
+         column-count: 1;
   }
 }
 
 .card-columns .card {
+  display: inline-block;
+  width: 100%;
+  margin: 5px;
+}
+
+.temp {
   display: inline-block;
   width: 100%;
   margin: 5px;
